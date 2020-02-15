@@ -1,0 +1,19 @@
+Solution app 6:
+
+
+Bookmarks
+Bookmark   Address    Disassembly                       Comment
+Alt+0      004011A8   JB SHORT app6win.004011D8
+Alt+1      0040174E   CALL app6win.00401000
+Alt+2      0040107E   NOP
+Alt+3      004010CA   CALL app6win.004010D3
+Alt+4      004010FC   CALL app6win.004015E0
+Alt+5      00401187   JGE SHORT app6win.00401175
+Alt+6      004011A8   JB SHORT app6win.004011D8
+Alt+7      004011C3   JE SHORT app6win.004011D6
+
+
+Watch expressions:
+DWORD PTR SS:[EBP-18]
+DWORD PTR DS:[EAX+ECX*4]
+DWORD PTR SS:[EBP-28]
